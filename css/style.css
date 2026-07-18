@@ -30,6 +30,12 @@ html {
   scroll-padding-top: var(--header-height);
 }
 
+.page-anchor {
+  display: block;
+  height: 0;
+  scroll-margin-top: 0;
+}
+
 body {
   font-family: var(--font-body);
   font-weight: 300;
